@@ -1,6 +1,6 @@
 .catalog {
   display: grid;
-  gap: 48px;
+  gap: $gap;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, $width);
 
@@ -15,7 +15,7 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: $gap;
+    margin-bottom: 48px;
   }
 }
 
